@@ -1,140 +1,110 @@
-@import url('https://fonts.googleapis.com/css?family=Arima+Madurai|Caveat+Brush|Song+Myung&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Adamina|Arapey|Playfair+Display+SC&display=swap');
 
+@media only screen and (min-width: 350px) {
+    #top-part {
+          margin: auto;
+          width: 95% !important;
+          padding: 10px;
+          }
+
+    #tribute-infor {
+          margin: auto;
+          width: 95% !important;
+          padding: 10px;
+          }
+}
+  
+
+@media only screen and (min-width: 1040px) {
+    #top-part {
+          margin: auto;
+          width: 60% !important;
+          padding: 10px;
+          }
+
+    #tribute-infor {
+          margin: auto;
+          width: 60% !important;
+          padding: 10px;
+          }
+}
 body {
   position: absolute;
-  left: 300px;
-  right: 300px;
-  top: 80px;
-  margin-bottom: 100px;
-  font-size: 20px;
-  font-family: 'Arima Madurai', cursive;
-  font-weight: bold;
-  background-image: url("https://images.unsplash.com/photo-1531824475211-72594993ce2a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-color: #FFFFFF;
+  font-family: Arapey;
+  font-size: 18px;
 }
-
-
+a:link {
+  color: #525050;  
+}
+a:hover {
+  color: hotpink;
+}
+a:visited {
+  color: #525050;
+}
 
 h1 {
-  text-align:center;
-  font-family: 'Caveat Brush', cursive;
-  font-size: 80px;
-  color: black;
-  padding: 30px;
-  background-color: rgba(253, 254, 254, 0.70);
-  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-  border-radius: 50%;
-}
-
-.box {
-  background-color: rgba(253, 254, 254, 0.5);
-  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-  border-radius: 2%;
-  
-}
-.white-box {
-  background-color: ;
-    padding: 70px;
-}
-
-
-
-.description {
+  font-size: 300%;
   text-align: center;
-  font-family: 'Arima Madurai', cursive;
+  font-family: Playfair Display SC;
 }
 
-.form-control {
+.blackline {
+  background-color: black;
+  padding: 3px;
+}
+
+h2 {
+  margin-top: 0px;
+  font-size: 27px;
+  text-align: center;
+  font-family: Playfair Display SC;
+}
+
+.writter {
+  text-align: right;
+}
+
+h3 {
+  font-size: 23px;
+  font-family: Playfair Display SC;
+}
+img {
   display: block;
-  width: 100%;
-  height: 2.375rem;
-  padding: 0.375rem 0.75rem;
-  color: #495057;
-  background-color: #fff;
-  background-clip: padding-box;
-  border: 1px solid #ced4da;
-  border-radius: 0.25rem;
-  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-  font-size: 20px;
-  font-family: 'Arima Madurai', cursive;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  hight: auto;
 }
 
-select option {
-    margin: 40px;
-    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
-  }
-option:checked {
-  background-color: #FDEBD0;
+ .image-caption {
+  text-align: center;
+  font-family: Adamina;
+  font-size: 15px;
 }
 
-
-.input-checkbox .input-radio {
-    display: inline-block;
-    margin-right: 0.625rem;
-    min-height: 20px;;
-    min-width: 20px;
+#top-part {
+  margin: auto;
+  width: 60%;
+  padding: 10px;
 }
 
-textarea {
+#tribute-infor {
+  margin: auto;
+  width: 60%;
+  padding: 10px;
+}
+
+.timeline {
+  font-family: Playfair Display SC;
   font-size: 18px;
-  font-family: 'Arima Madurai', cursive;
-  width: 100%;
-  color: #495057;
-}
-.submit-botton {
-  display: block;
-    width: 100%;
-    padding: 0.50rem;
-    background: rgb(253, 253, 254, 0.8);
-    font-size: 20px;
-    font-family: 'Arima Madurai', cursive;
-    color: black;
-    border-radius: 2px;
-    cursor: pointer;
 }
 
+.quote {
+  text-align: right;
+  font-family: Playfair Display SC;
+}
 footer {
   text-align: center;
-  color: #FFF;
-  font-size: 18px;
-  
 }
-.line {
-  background-color: #FFF;
-  padding: 1px;
-  widht: 150%;
-  font-weight: bold;
-}
-.fa {
-  padding: 15px;
-  font-size: 30px;
-  width: 20px;
-  text-align: center;
-  text-decoration: none;
-  margin: 5px 2px;
-  border-radius: 50%;
-}
-
-.fa:hover {
-    opacity: 0.7;
-}
-
-.fa-linkedin {
-  background: #283747;
-  color: white;
-}
-
-.fa-instagram {
-  background: #283747;
-  color: white;
-}
-
-.fa-facebook {
-  background: #283747;
-  color: white;
-  }
-.fa-github {
-  background: #283747;
-  color: white;
-  }
